@@ -1,0 +1,14 @@
+GET http://localhost:3000/api/v1/usuarios HTTP/1.1
+###
+POST /api/v1/usuarios HTTP/1.1
+Host: localhost:3000
+Content-Type: application/json
+
+{
+    "nombre":"Mirella",
+    "apellido":"Alvarez Conche",
+    "ocupacion":"Estudiante",
+    "carnet_identidad":"05091280247",
+    "email":"MirellaAC@gmail.com",
+    "password":"tururu"
+}
